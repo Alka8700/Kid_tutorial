@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kids_tutorial</title>
+    <link type="image/jpg" rel="icon" href="../imgs/kid2.jpg">
+    <meta name="view port" content="width=device-width , initial-scale=1">
+    <meta name="Kids tutorial" content="alphabet,fruits name, vegetables name,colors name, parts of body name,dry fruits etc.">
+    <style>
+        form {
+            background-color: bisque;
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+            left: 250px;
+            top: 60px;
+            border-radius: 10px;
+        }
+        
+        form .in input {
+            margin: 5px;
+        }
+        
+        form .inout textarea {
+            position: relative;
+            left: 5px;
+            top: 5px;
+        }
+        
+        form .out input {
+            position: relative;
+            left: 150px;
+            top: 20px;
+            margin-bottom: 20px;
+            padding: 5px;
+            transition: 1s;
+        }
+        
+        #last {
+            position: relative;
+            top: 120px;
+            text-align: center;
+        }
+        
+        #last img {
+            border-radius: 50px;
+        }
+        
+        form:hover {
+            transform: scale(1.2);
+            z-index: 2;
+        }
+        
+        form h3 {
+            position: relative;
+            left: 150px;
+        }
+        
+        #map {
+            text-align: right;
+            margin-top: 30px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8485.77605043547!2d77.46330613406705!3d23.253527837502176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4203e1c28add%3A0xce85ece223ab006b!2sIndrapuri%20C%20sector%2C%20Sector%20C%2C%20Indrapuri%2C%20Bhopal%2C%20Madhya%20Pradesh%20462022!5e0!3m2!1sen!2sin!4v1644950479465!5m2!1sen!2sin"
+            width="100%" height="350" style="border: 1px;;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <form>
+        <table>
+            <tr>
+                <h3>Contact us</h3>
+            </tr>
+            <tr>
+                <td class="in">
+                    <input type="text" placeholder="Name" size="50px">
+                </td>
+            </tr>
+            <tr>
+                <td class="in">
+                    <input type="email" placeholder="Email" size="50px">
+                </td>
+            </tr>
+            <tr>
+                <td class="inout">
+                    <textarea type="textarea" placeholder="message" rows="10" cols="48"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="out">
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    <div id="last">
+        <img src="../imgs/thank.jpg">
+    </div>
+</body>
+
+</html>

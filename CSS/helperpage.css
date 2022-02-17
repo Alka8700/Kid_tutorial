@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#elehed img {
+    width: 100%;
+    position: relative;
+    top: -50px;
+    background-color: rgb(8, 8, 8);
+}
+
+#elemain {
+    background-color: black;
+    position: relative;
+    top: -60px;
+}
+
+.eleone {
+    display: inline-block;
+}
+
+.eleone img {
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    width: 350px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.eleone img:hover {
+    transform: scale(1.3);
+}
+
+.eletwo h2 {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#elefot input[type] {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 350px;
+    top: 40px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#elefot {
+    background-color: gray;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#elefot a {
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    left: 180px;
+    top: 25px;
+    color: rgb(224, 24, 24);
+}
+
+#elemain h1 {
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    padding-top: 30px;
+}
+
+#elemain span {
+    color: brown;
+}
