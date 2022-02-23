@@ -26,10 +26,12 @@ body {
 
 .sevone img {
     margin-top: 60px;
-    margin-left: 280px;
+    margin-left: 300px;
     margin-bottom: 50px;
     width: 350px;
     transition: 1s;
+    position: relative;
+    left: 200px;
 }
 
 .sevone img:hover {
@@ -39,10 +41,10 @@ body {
 
 .sevone h2 {
     display: inline-block;
-    color: black;
+    color: rgb(5, 5, 5);
     position: relative;
-    left: -230px;
     top: -150px;
+    left: -40px;
     font-style: italic;
     font-weight: bolder;
     font-size: xx-large;
@@ -59,7 +61,7 @@ body {
     width: 200px;
     height: 50px;
     position: relative;
-    left: 350px;
+    left: 590px;
     top: 40px;
     background-color: black;
     border-radius: 10px;
@@ -76,7 +78,7 @@ body {
     text-decoration: none;
     font-size: 30px;
     position: relative;
-    left: 180px;
+    left: 420px;
     top: 25px;
     color: rgb(218, 40, 40);
 }
